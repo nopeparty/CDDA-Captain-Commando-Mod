@@ -1,0 +1,29 @@
+[
+ {
+    "type":"monstergroup",
+    "name" : "GROUP_ZOMBIE",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_den_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
+      ],
+    "replace_monster_group" : true,
+    "new_monster_group_id" : "GROUP_ZOMBIE_MID",
+    "replacement_time" : 14, "//" : "(replacement_time * difficulty)DAYS *(SEASON_LENGTH / 14)"
+  }
+   ,{
+    "type":"monstergroup",
+    "name" : "GROUP_VANILLA",
+    "default" : "mon_zombie",
+    "monsters" : [
+            { "monster" : "mon_den_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
+    ]
+  }
+  ,{
+    "type":"monstergroup",
+    "name" : "GROUP_ZOMBIE_MID",
+    "default" : "mon_zombie_tough",
+    "monsters" : [
+      { "monster" : "mon_den_carol", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]}
+    ]
+  }
+]

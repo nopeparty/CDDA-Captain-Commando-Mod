@@ -1,0 +1,9 @@
+{
+  "type": "MOD_INFO",
+  "ident": "Captain_Commando",
+  "name": "Captaine Commando enemies",
+  "authors": [ "nopeparty" ],
+  "description": "Adds some monsters from Captaine Commando. Pretty much unbalance and chaotic. Still in progress.",
+  "category": "creatures",
+  "dependencies": ["dda"]
+}
