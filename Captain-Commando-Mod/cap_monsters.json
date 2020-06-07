@@ -27,7 +27,7 @@
 	"regen_morale":false,
 	"anger_triggers":[ "PLAYER_CLOSE", "FRIEND_DIED", "FRIEND_ATTACKED" ],
 	"fear_triggers":[ "HURT", "MEAT", "FIRE" ],
-    "special_attacks": [ "TAZER", 10 ],
+    "special_attacks": [ [ "TAZER", 10 ] ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_Carol_death_drops", 100 ] ] },
     "death_function": [ "NORMAL" ],
     "flags": [
@@ -36,6 +36,7 @@
 	  "GOODHEARING",
       "SMELLS",
       "WARM",
+	  "CAN_OPEN_DOORS",
       "BASHES",
       "GROUP_BASH",
 	  "GROUP_MORALE",

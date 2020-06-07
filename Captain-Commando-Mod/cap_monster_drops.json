@@ -4,6 +4,6 @@
     "subtype": "collection",
     "id": "default_Carol_death_drops",
     "entries": [ 
-{ "item": "thigh_high_boots", "prob": 50 },
+{ "item": "thigh_high_boots", "prob": 50 }]
   }
 ]
