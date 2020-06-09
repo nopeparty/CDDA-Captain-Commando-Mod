@@ -4,7 +4,7 @@
     "name": "GROUP_ZOMBIE",
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_cap_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,2] }
+      { "monster" : "mon_cap_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [2,2] }
     ]
   },
  {
@@ -12,7 +12,7 @@
     "name" : "GROUP_ZOMBIE",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_cap_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,2] }
+      { "monster" : "mon_cap_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [2,2] }
       ]
   }
    ,{
@@ -20,7 +20,7 @@
     "name" : "GROUP_VANILLA",
     "default" : "mon_zombie",
     "monsters" : [
-            { "monster" : "mon_cap_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,2]}
+            { "monster" : "mon_cap_carol", "freq" : 150, "cost_multiplier" : 0, "pack_size": [2,2]}
     ]
   }
   ,{
@@ -28,7 +28,7 @@
     "name" : "GROUP_ZOMBIE_MID",
     "default" : "mon_zombie_tough",
     "monsters" : [
-      { "monster" : "mon_cap_carol", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,2]}
+      { "monster" : "mon_cap_carol", "freq" : 100, "cost_multiplier" : 0, "pack_size": [2,2]}
     ]
   }
 ]
