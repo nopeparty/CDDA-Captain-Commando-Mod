@@ -7,21 +7,12 @@
     "monsters": [
       { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4] }
     ]
-  },
- {
-    "type":"monstergroup",
-    "name" : "GROUP_ZOMBIE",
-	"//": "zombies highest freq : 75",
-    "default" : "mon_zombie",
-    "monsters" : [
-      { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4] }
-      ]
   }
    ,{
     "type":"monstergroup",
     "name" : "GROUP_VANILLA",
 	"//": "zombies highest freq : 266",
-    "default" : "mon_zombie",
+    "default" : "mon_null",
     "monsters" : [
             { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4]}
     ]
@@ -30,7 +21,7 @@
     "type":"monstergroup",
     "name" : "GROUP_ZOMBIE_MID",
 	"//": "zombies highest freq : 75",
-    "default" : "mon_zombie_tough",
+    "default" : "mon_null",
     "monsters" : [
       { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4]}
     ]
