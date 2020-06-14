@@ -5,7 +5,7 @@
 	"//": "zombies highest freq : 75",
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4] }
+      { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,3] }
     ]
   }
    ,{
@@ -14,7 +14,7 @@
 	"//": "zombies highest freq : 266",
     "default" : "mon_null",
     "monsters" : [
-            { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4]}
+            { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,3]}
     ]
   }
   ,{
@@ -23,7 +23,7 @@
 	"//": "zombies highest freq : 75",
     "default" : "mon_null",
     "monsters" : [
-      { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [3,4]}
+      { "monster" : "mon_cap_carol", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,3]}
     ]
   }
 ]
